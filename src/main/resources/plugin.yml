@@ -1,0 +1,15 @@
+name: AwitPVP
+version: '${version}'
+main: awitmc.plugins.awitpvp.Awitpvp
+api-version: 1.19
+authors: [ Next ]
+permissions:
+  awitwars.vip:
+    default: op
+  awitwars.admin:
+    default: op
+commands:
+  awitpvp:
+    usage: /<command>
+
+
